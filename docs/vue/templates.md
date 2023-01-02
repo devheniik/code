@@ -28,7 +28,7 @@ Good practies :white_check_mark:
 ```html
 <template>
   <div>
-    <Modal :show="is_modal_open" />
+    <Modal :show="isModalOpen" />
     <button @click="handleOpenModal">Toggle</button>
   </div>
 </template>
