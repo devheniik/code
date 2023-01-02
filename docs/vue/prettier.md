@@ -1,0 +1,18 @@
+---
+title: Prettier Config
+---
+
+# Prettier Config
+
+```json
+{
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "endOfLine": "lf"
+}
+```
