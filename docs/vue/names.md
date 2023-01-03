@@ -6,7 +6,7 @@ title: Names
 
 ## Variables
 
-Bad practies :x:
+Bad :x:
 
 ```html
 <script setup lang="ts">
@@ -16,7 +16,7 @@ Bad practies :x:
 </script>
 ```
 
-Good practies :white_check_mark:
+Good :white_check_mark:
 
 ```html
 <script setup lang="ts">
@@ -26,9 +26,9 @@ Good practies :white_check_mark:
 </script>
 ```
 
-## Fuctions
+## Functions
 
-Bad practies :x:
+Bad :x:
 
 ```html
 <script setup lang="ts">
@@ -42,7 +42,7 @@ Bad practies :x:
 </script>
 ```
 
-Good practies :white_check_mark:
+Good :white_check_mark:
 
 ```html
 <script setup lang="ts">
