@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Code Guide',
-  description: 'YevheniiK Code Style Guide.',
+  description: 'DevheniiK Code Style Guide.',
   head: [
     ['link', { rel: 'icon', href: '/LogoIcon.svg', type: 'image/svg+xml' }],
   ],
   themeConfig: {
-    logo: '/LogoWithName.svg',
+    logo: '/coding.svg',
     siteTitle: '',
     sidebar: [
           {
