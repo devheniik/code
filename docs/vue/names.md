@@ -143,7 +143,7 @@ And some about style using components:
 
 Bad practies :x:
 
-```
+```html
 <template>
 
   <!-- 💩 -->
