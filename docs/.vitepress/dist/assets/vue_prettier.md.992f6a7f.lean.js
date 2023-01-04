@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as o}from"./app.0d104adc.js";const A=JSON.parse('{"title":"Prettier Config","description":"","frontmatter":{"title":"Prettier Config"},"headers":[],"relativePath":"vue/prettier.md"}'),p={name:"vue/prettier.md"},l=o("",2),e=[l];function t(r,c,D,F,y,i){return n(),a("div",null,e)}const u=s(p,[["render",t]]);export{A as __pageData,u as default};

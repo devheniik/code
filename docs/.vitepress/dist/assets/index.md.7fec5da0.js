@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s,a}from"./app.f398cb33.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),o={name:"index.md"},n=a("p",null,"��#�#� �H�e�l�l�o� �V�i�t�e�P�r�e�s�s� � �",-1),r=[n];function c(d,i,_,l,p,m){return s(),t("div",null,r)}const x=e(o,[["render",c]]);export{u as __pageData,x as default};

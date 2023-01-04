@@ -56,7 +56,7 @@ Good :white_check_mark:
 </script>
 ```
 
-## Fuctions
+## Props
 
 Bad practies :x:
 
@@ -82,7 +82,7 @@ Bad practies :x:
 Good practies :white_check_mark:
 
 
-::: code-group 
+::: code-group
 
 ```html [App.vue]
 <template>
@@ -109,5 +109,72 @@ Good practies :white_check_mark:
     }
   })
 
+</script>
+```
+:::
+
+## Component names
+
+Firstly often you can find adviced to name you component like this style:
+
+```html
+📦components
+ ┣ 📂global
+ ┣ 📂forms
+ ┗ 📂todos
+   ┗ 📜Create.vue
+   ┗ 📜Update.vue
+   ┗ 📜View.vue
+```
+
+But we named component by full name without attantion to the folder where it locale, becouse it help in future faster find and understand files. Please write names like this:
+
+```html
+📦components
+ ┣ 📂global
+ ┣ 📂forms
+ ┗ 📂todos
+   ┗ 📜CreateTodo.vue
+   ┗ 📜UpdateTodo.vue
+   ┗ 📜ViewToto.vue
+```
+
+And some about style using components:
+
+Bad practies :x:
+
+```
+<template>
+
+  <!-- 💩 -->
+  <createTodo />
+
+  <!-- 💩 -->
+  <Createtodo />
+
+  <!-- 💩 -->
+  <CreateTodo />
+
+</template>
+
+<script setup lang="ts">
+  import CreateTodo from './CreateTodo.vue'
+</script>
+```
+
+Good practies :white_check_mark:
+
+
+
+```html
+<template>
+
+  <!-- 💩 -->
+  <create-todo />
+
+</template>
+
+<script setup lang="ts">
+  import CreateTodo from './CreateTodo.vue'
 </script>
 ```

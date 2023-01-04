@@ -22,6 +22,10 @@ export default defineConfig({
                 link: '/vue/templates',
               },
               {
+                text: 'Script',
+                link: '/vue/script',
+              },
+              {
                 text: 'Prettier',
                 link: '/vue/prettier',
               },
