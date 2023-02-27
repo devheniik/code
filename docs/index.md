@@ -17,6 +17,9 @@ hero:
       text: Vue JS
       link: /vue/names
     - theme: alt
+      text: Management
+      link: /management/discuss
+    - theme: alt
       text: View on GitHub
       link: https://github.com/devheniik/code
 

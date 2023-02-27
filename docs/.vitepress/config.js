@@ -31,19 +31,32 @@ export default defineConfig({
               },
             ],
           },
-        ],
-    // nav:
-        // [
-        //     { text: 'Guide', link: '/guide' },
-        //     {
-        //     text: 'Dropdown Menu',
-        //     items: [
-        //         { text: 'Item A', link: '/item-1' },
-        //         { text: 'Item B', link: '/item-2' },
-        //         { text: 'Item C', link: '/item-3' }
-        //     ]
-        //     }
-        // ]
+          {
+            text: 'Project Management',
+            items: [
+              {
+                text: 'Discuss',
+                link: '/management/discuss',
+              },
+              {
+                text: 'Development',
+                link: '/management/development',
+              },
+              {
+                text: 'Core Review',
+                link: '/management/code-review',
+              },
+              {
+                text: 'Testing',
+                link: '/management/testing',
+              },
+              {
+                text: 'Release',
+                link: '/management/release',
+              },
+            ]
+          }
+        ]
   },
 
   footer: {
